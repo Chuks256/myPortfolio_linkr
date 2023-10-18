@@ -1,0 +1,15 @@
+.profile_img{
+    width:120px;
+    clip-path: circle(40% at 55px);
+}
+
+.profileContainer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color:rgb(221, 220, 220);
+    gap:-0.2em;
+    margin-top:-30px;
+}
+

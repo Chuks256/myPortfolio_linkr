@@ -1,0 +1,48 @@
+.linkContainer{
+    display: flex;
+    align-items: center;
+    list-style-type:none;
+    justify-content: center;
+    padding: 4px;
+    flex-direction: column;
+    gap:1em;
+}
+
+.linkModal{
+display: flex;
+align-items: center;
+gap: 10em;
+background-color:rgba(221, 220, 220,50%);
+padding: 4px;
+border-radius: 50px;
+width:350px;
+justify-content: center;
+}
+
+.linkLogoContainer{
+    display: flex;
+    align-items: center;
+    gap:0.5em;   
+}
+
+.faceBookIcon{
+    font-size:39px;
+    color:rgb(31, 31, 31);
+}
+
+.linkName,.linkr{
+    color:rgb(31, 31, 31);
+}
+
+.linkModal:hover{
+    cursor: pointer;
+    transition: linear,500ms;
+    transform: scale(125%);
+}
+
+@media screen and (max-width:780px){
+    .linkModal:hover{
+        transform: scale(110%);
+    }
+}
+

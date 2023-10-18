@@ -1,0 +1,19 @@
+@font-face {
+  font-family:"mywebfont";
+  src: url("../src/assets/Poppins-Regular.ttf");
+}
+
+*{
+font-family:"mywebfont";
+user-select: none;
+user-zoom: none;
+}
+
+body{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  background-image: url("../src/assets/earth.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+}

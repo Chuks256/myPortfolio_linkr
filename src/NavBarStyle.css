@@ -1,0 +1,40 @@
+.logoContainer{
+    display: flex;
+    gap:0.4em;
+    flex-direction: row;
+    align-items:center;
+}
+
+.logo_name{
+    color:rgb(221, 220, 220);
+}
+
+svg{
+    color:rgb(221, 220, 220);
+    font-size: 30px;
+}
+
+.navChildContainer{
+    display: flex;
+    gap:30em;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.menu_icon{
+    transform: scale(100deg);
+    transition: linear,500ms;
+    cursor: pointer;
+}
+
+.menu_icon:hover{
+    color:white;
+    transform: scale(120%);
+}
+
+@media screen and (max-width:780px) {
+    .navChildContainer{
+        gap:20em;
+    }   
+}

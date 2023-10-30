@@ -1,5 +1,5 @@
 
-import LinkStyle from "../LinkStyle.css"
+import  "../LinkStyle.css"
 
 function LinkComponent(){
    

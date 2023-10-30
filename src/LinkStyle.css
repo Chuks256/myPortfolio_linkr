@@ -40,9 +40,21 @@ justify-content: center;
     transform: scale(125%);
 }
 
+
 @media screen and (max-width:780px){
     .linkModal:hover{
         transform: scale(110%);
     }
 }
+
+
+@media screen and (max-width:409px){
+    .linkModal{
+        width:300px;
+        gap:7em;
+    }
+
+   
+}
+
 

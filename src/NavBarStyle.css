@@ -38,3 +38,10 @@ svg{
         gap:20em;
     }   
 }
+
+@media screen and (max-width:409px) {
+    .navChildContainer{
+        gap:13.5em;
+    }   
+}
+
